@@ -1,0 +1,42 @@
+/*index.html에 연결 된 css*/
+
+.ul:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease;
+}
+
+.le:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease;
+}
+
+.st:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease;
+}
+
+.ul {
+  transition: all 0.5s;
+}
+
+.le {
+  transition: all 0.5s;
+}
+
+.st {
+  transition: all 0.5s;
+}
+
+img {
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: 'Yellowtail-Regular';
+  src: url(Yellowtail-Regular.ttf) format('truetype');
+}
+
+.title {
+  font-family: Yellowtail-Regular;
+  font-size: 100px;
+}
